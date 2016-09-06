@@ -1,0 +1,109 @@
+
+
+@font-face {
+  font-family: 'platform';
+  src: url('Platform-Bold.otf'); /* IE9 Compat Modes */
+}
+
+@font-face {
+  font-family: 'circular';
+  src: url('CircularStd-Book.otf'); /* IE9 Compat Modes */
+}
+
+
+html {
+  padding:0;
+  margin:0;
+  background-color:rgb(26,16,18);
+  background-repeat: none;
+  background: url('../images/090916.png') #1b1214 no-repeat center center fixed; 
+  background-size: auto 125vh; 
+}
+
+body {
+  padding:0;
+  margin:0;
+}
+
+.container {
+  position: relative;
+  width:100vw;
+  height:100vh;
+  min-height:500px;
+  overflow: hidden;
+  padding-top:36vh;
+  box-sizing: border-box;
+
+}
+
+p {
+  margin:0;
+}
+
+h1 {
+  display: block;
+  width:100%;
+  font-size: 12vw;
+  margin:0;
+  padding:0;
+}
+
+.slogan {
+  font-size: 3vw;
+}
+
+.date {
+  font-size: 1.8vw;
+}
+.links, .cosigns {
+  width:100%;
+  position:absolute;
+  bottom:0;
+  display:flex;
+  justify-content: center;
+
+}
+.links li {
+  list-style: none;
+  display:inline-block;
+  padding:40px;
+  padding-top: 70px;
+  flex-direction: column;
+}
+
+.links a {
+  color:white;
+  font-family:'circular';
+  padding:10px;
+  background-color: #1b1214;
+  display:inline-block;
+  letter-spacing: 0.08em;
+  text-decoration: none;
+}
+
+.cosigns li {
+  list-style: none; 
+  padding:0 10px;
+}
+
+.cosigns a {
+  font-size:12px;
+  display:inline-block;
+  background-color: #CCCCCC;
+  padding:2px;
+  padding-top:0;
+  padding-bottom:0;
+  font-family: 'platform';
+  color:#800026;
+  /*font-family:'circular';*/
+  text-decoration: none;
+  /*letter-spacing:0.04em;*/
+}
+
+.fc {
+  color:white;
+  text-align: center;
+  font-family: 'platform';  
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+}
