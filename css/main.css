@@ -135,6 +135,10 @@ h1 {
   .links li {
     padding:10px;
   }
+
+  .cosigns a {
+    font-size:14px;
+  }
 }
 
 
