@@ -16,8 +16,8 @@ html {
   margin:0;
   background-color:rgb(26,16,18);
   background-repeat: none;
-  background: url('../images/090916.png') #1b1214 no-repeat center center fixed; 
-  background-size: auto 125vh; 
+  background: url('../images/walpole-rebellion.jpg') #1b1214 no-repeat center center fixed;
+  background-size: auto 125vh;
 }
 
 body {
@@ -53,7 +53,7 @@ h1 {
 }
 
 .date {
-  font-size: 1.8vw;
+  font-size: 2.8vw;
 }
 .links, .cosigns {
   width:100%;
@@ -83,7 +83,7 @@ h1 {
 }
 
 .cosigns li {
-  list-style: none; 
+  list-style: none;
   padding:0 10px;
 }
 
@@ -102,18 +102,18 @@ h1 {
 }
 
 .fc {
-  color:white;
+  color: #FABC43;
   text-align: center;
-  font-family: 'platform';  
+  font-family: 'platform';
   text-transform: uppercase;
   letter-spacing: 0.1em;
 }
 
 
 
-@media only screen and (min-width : 300px) and (max-width: 650px) { 
+@media only screen and (min-width : 300px) and (max-width: 650px) {
   html {
-    background-size: auto 100vh; 
+    background-size: auto 100vh;
   }
 
   h1 {
