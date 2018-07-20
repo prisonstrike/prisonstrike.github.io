@@ -116,10 +116,10 @@ h1 {
   }
 
   h1 {
-    font-size:11vw;
+    font-size:12vw;
   }
   .date {
-    font-size: 3.5vw;
+    font-size: 6.5vw;
   }
 
   .slogan {
@@ -128,11 +128,16 @@ h1 {
 
   .links {
     bottom:30px;
-    font-size:2.3vw;
+    font-size:4.3vw;
+  }
+
+  .links a {
+    padding: 5px;
   }
 
   .links li {
     padding:10px;
+    margin-bottom: 20px;
   }
 
   .cosigns a {
