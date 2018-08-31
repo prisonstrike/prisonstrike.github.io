@@ -17,6 +17,7 @@ html {
   background-color:rgb(26,16,18);
   background-repeat: none;
   background: url('../images/national-prison-strike-poster-melanie-cervantes.jpg') #1b1214 no-repeat top;
+  background-size: 100%;
 }
 
 body {
@@ -114,9 +115,6 @@ a {
 
 
 @media only screen and (min-width : 300px) and (max-width: 650px) {
-  html {
-    background-size: auto 87vh;
-  }
   .learn-more {
     display: none;
   }
