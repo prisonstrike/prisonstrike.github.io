@@ -80,6 +80,7 @@ h1 {
   display:inline-block;
   letter-spacing: 0.08em;
   text-decoration: none;
+  font-size: 2vw;
 }
 
 .cosigns li {
