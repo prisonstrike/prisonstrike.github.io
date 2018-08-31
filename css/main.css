@@ -16,7 +16,7 @@ html {
   margin:0;
   background-color:rgb(26,16,18);
   background-repeat: none;
-  background: url('../images/walpole-rebellion.jpg') #1b1214 no-repeat center center fixed;
+  background: url('../images/national-prison-strike-poster-melanie-cervantes.jpg') #1b1214 no-repeat top;
 }
 
 body {
@@ -27,7 +27,7 @@ body {
 .container {
   position: relative;
   width:100vw;
-  height:100vh;
+  height:200vh;
   min-height:500px;
   overflow: hidden;
   padding-top:36vh;
@@ -42,7 +42,7 @@ p {
 h1 {
   display: block;
   width:100%;
-  font-size: 12vw;
+  font-size: 4vw;
   margin:0;
   padding:0;
 }
@@ -89,32 +89,37 @@ h1 {
 .cosigns a {
   font-size:16px;
   display:inline-block;
-  background-color: #CCCCCC;
   padding:2px;
   padding-top:0;
   padding-bottom:0;
   font-family: 'platform';
-  color:#800026;
+  color: white;
   /*font-family:'circular';*/
   text-decoration: none;
   /*letter-spacing:0.04em;*/
 }
 
 .fc {
-  color: #F9A809;
+  color: white;
   text-align: center;
   font-family: 'platform';
   text-transform: uppercase;
-  letter-spacing: 0.1em;
+  padding-top:20vw;
 }
 
+a {
+  text-decoration: none;
+
+}
 
 
 @media only screen and (min-width : 300px) and (max-width: 650px) {
   html {
-    background-size: auto 100vh;
+    background-size: auto 87vh;
   }
-
+  .learn-more {
+    display: none;
+  }
   h1 {
     font-size:12vw;
   }
@@ -127,12 +132,14 @@ h1 {
   }
 
   .links {
-    bottom:30px;
+    top:260px;
     font-size:4.3vw;
   }
 
   .links a {
     padding: 5px;
+    background-color: transparent;
+
   }
 
   .links li {
@@ -141,7 +148,7 @@ h1 {
   }
 
   .cosigns a {
-    font-size:15px;
+  display: none;
   }
 }
 
